@@ -3347,14 +3347,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/vendor/etc/aualgo/ainr_tfv2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo/ainr_tfv2.dat \
     vendor/motorola/mumba/proprietary/vendor/etc/aualgo/aualgo_comp_azs.conf:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo/aualgo_comp_azs.conf \
     vendor/motorola/mumba/proprietary/vendor/etc/audio/sku_parrot/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/audio_effects.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/audio/sku_parrot/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/audio_effects_config.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/audio/sku_parrot/audio_effects_config_stub.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/audio_effects_config_stub.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/audio/sku_parrot/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/audio_policy_configuration.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/audio/sku_parrot/mixer_paths_parrot_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/mixer_paths_parrot_qrd.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/audio/sku_parrot/resourcemanager_parrot_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot/resourcemanager_parrot_qrd.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/audio/sku_parrot_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrot_qssi/audio_policy_configuration.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/audio/sku_parrotlite/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrotlite/audio_effects.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/audio/sku_parrotlite/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrotlite/audio_effects_config.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/audio/sku_parrotlite/mixer_paths_parrot_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrotlite/mixer_paths_parrot_qrd.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/audio/sku_parrotlite/resourcemanager_parrot_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_parrotlite/resourcemanager_parrot_qrd.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
