@@ -3476,7 +3476,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/vendor/etc/init/nfc-service-st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nfc-service-st.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/nicmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nicmd.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
-    vendor/motorola/mumba/proprietary/vendor/etc/init/poweropt-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/qesdk-manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-manager.rc \
@@ -3493,7 +3492,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.mmi.carrier.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mmi.carrier.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.qsap.location.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.location.rc \
-    vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.qsap.qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.qapeservice.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.qti.MemHal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.MemHal-service.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
@@ -3503,7 +3501,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore-service.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.qti.hardware.dsp-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp-service.rc \
-    vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.qti.hardware.perf2-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf2-hal-service.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/vendor.qti.hardware.secureprocessor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.secureprocessor.rc \
@@ -3562,18 +3559,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/vendor/etc/libnfc-nci-st-felica.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci-st-felica.conf \
     vendor/motorola/mumba/proprietary/vendor/etc/libnfc-nci-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci-st.conf \
     vendor/motorola/mumba/proprietary/vendor/etc/libse-gto-hal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libse-gto-hal.conf \
-    vendor/motorola/mumba/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/lm/LightningLaunchesFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/LightningLaunchesFeature.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/lm/PreKillFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/PreKillFeature.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/lm/PrefAppsFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/PrefAppsFeature.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/lm/ProCompFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/ProCompFeature.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/lm/QAPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QAPE.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/lm/QGPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPE.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/lm/QGPEActionMap.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPEActionMap.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/lm/SilkyScrollsFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/SilkyScrollsFeature.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/lm/prekill/prekill_2GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_2GB.data \
-    vendor/motorola/mumba/proprietary/vendor/etc/lm/prekill/prekill_4GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_4GB.data \
-    vendor/motorola/mumba/proprietary/vendor/etc/lm/prekill/prekill_6GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_6GB.data \
     vendor/motorola/mumba/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/motorola/mumba/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
@@ -3615,24 +3600,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/vendor/etc/models/acd/speech_nonenpu.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech_nonenpu.eai \
     vendor/motorola/mumba/proprietary/vendor/etc/motosxf_conf_profile:$(TARGET_COPY_OUT_VENDOR)/etc/motosxf_conf_profile \
     vendor/motorola/mumba/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
-    vendor/motorola/mumba/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/perf/targetavcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetavcsysnodesconfigs.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/perf/targetsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetsysnodesconfigs.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/perf/testcommonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testcommonresourceconfigs.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/perf/testtargetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testtargetresourceconfigs.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/permissions/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/motorola/mumba/proprietary/vendor/etc/pwr/PSMPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PSMPowerOptFeature.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/pwr/StandbyFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/StandbyFeature.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/qcom_widevine_licenses.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/qcom_widevine_licenses.pfm \
     vendor/motorola/mumba/proprietary/vendor/etc/qcril_database/upgrade/config/0006.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0006.0_config.sql \
     vendor/motorola/mumba/proprietary/vendor/etc/qcril_database/upgrade/config/0007.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0007.0_config.sql \
@@ -3668,7 +3638,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/vendor/etc/seccomp_policy/qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdk.policy \
     vendor/motorola/mumba/proprietary/vendor/etc/seccomp_policy/qesdksec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdksec.policy \
     vendor/motorola/mumba/proprietary/vendor/etc/seccomp_policy/qms.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qms.policy \
-    vendor/motorola/mumba/proprietary/vendor/etc/seccomp_policy/qsap_qapeservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_qapeservice.policy \
     vendor/motorola/mumba/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/motorola/mumba/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/motorola/mumba/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
@@ -4137,9 +4106,6 @@ PRODUCT_PACKAGES += \
     libanc_sn_adapter_front_main \
     libanc_sn_adapter_rear_main \
     libanc_sn_adapter_rear_uw \
-    libaodoptfeature \
-    libapengine \
-    libappclassifier \
     libar-pal \
     libarcsoft_chi_utils \
     libarcsoft_distortion_correction \
@@ -4164,7 +4130,6 @@ PRODUCT_PACKAGES += \
     libcalculator \
     libcamera_nn_stub \
     libcamerapostproc \
-    libcamerapoweroptfeature \
     libcamxcommonutils \
     libcamxexternalformatutils \
     libcamxfacialfeatures \
@@ -4216,7 +4181,6 @@ PRODUCT_PACKAGES += \
     libextra-thales \
     libfastcvdsp_stub \
     libfastcvopt \
-    libgamepoweroptfeature \
     libgdtap \
     libgeofencing \
     libgnss \
@@ -4246,15 +4210,11 @@ PRODUCT_PACKAGES += \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
-    liblearningmodule \
-    liblightninglaunches \
     liblistensoundmodel2vendor \
     liblistensoundmodelaidl \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
-    liblmthermallistner \
-    liblmutils-ns \
     libloadalgo_stub \
     libloc_api_v02 \
     libloc_api_wds \
@@ -4283,10 +4243,7 @@ PRODUCT_PACKAGES += \
     libmdmcutback \
     libmdmdetect \
     libmdsprpc \
-    libmemperfd \
     libmemutils \
-    libmeters-ns \
-    libmeters \
     libmfGhostDetection \
     libmfec \
     libminkdescriptor \
@@ -4331,18 +4288,8 @@ PRODUCT_PACKAGES += \
     libpasrutils \
     libpdmapper \
     libpdnotifier \
-    libperfconfig \
-    libperfdb \
-    libperfioctl \
     libperipheral_client \
     libportrait_repair_ppl3_ocl \
-    libpowercore \
-    libprefapps \
-    libprekill \
-    libprocomp \
-    libpsmoptfeature \
-    libq-perflog \
-    libqapesdk \
     libqc2audio_base \
     libqc2audio_basecodec \
     libqc2audio_core \
@@ -4419,16 +4366,6 @@ PRODUCT_PACKAGES += \
     libqshcamera \
     libqsocket \
     libqspm-mem-utils-vendor \
-    libqti-appclassifier \
-    libqti-perfd-client \
-    libqti-perfd \
-    libqti-perfextn-intf \
-    libqti-qesdk-secure \
-    libqti-s3tf \
-    libqti-scenariod \
-    libqti-sslite \
-    libqti-util \
-    libqti-utils \
     libqtigefar \
     libqtiidentitycredential \
     libqtikeymaster4 \
@@ -4460,8 +4397,6 @@ PRODUCT_PACKAGES += \
     libsfeShiftExtrapolation \
     libshsc \
     libsi \
-    libsilkyscrolls \
-    libskewknob \
     libslimclient \
     libsmemlog \
     libsnapdragoncolor-manager \
@@ -4481,7 +4416,6 @@ PRODUCT_PACKAGES += \
     libssc \
     libssc_default_listener \
     libssd \
-    libstandbyfeature \
     libstnfc-auth \
     libstnfc-streset \
     libstreamparser \
@@ -4507,7 +4441,6 @@ PRODUCT_PACKAGES += \
     libubwcp \
     libverdict \
     libvideoml \
-    libvideooptfeature \
     libvideotxr \
     libvideoutils \
     libvidhance \
@@ -4546,7 +4479,6 @@ PRODUCT_PACKAGES += \
     motorola.hardware.health.aidl-V1-ndk \
     motorola.hardware.health.storage.aidl-V1-ndk \
     motorola.hardware.health.storage@1.0 \
-    motorola.hardware.power-V2-ndk \
     motorola.hardware.rpmb-V1-ndk \
     motorola.hardware.sensors-V1-ndk \
     motorola.hardware.sxf-V2-ndk \
@@ -4613,7 +4545,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.slm@1.0 \
     vendor.qti.diaghal-V1-ndk_vendor \
     vendor.qti.diaghal@1.0_vendor \
-    vendor.qti.esepowermanager@1.0 \
     vendor.qti.gnss-V7-ndk \
     vendor.qti.gnss-service \
     vendor.qti.hardware.ListenSoundModelAidl-V1-ndk \
@@ -4652,8 +4583,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.iop@1.0 \
     vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.mwqemadapteraidlservice-V1-ndk \
-    vendor.qti.hardware.perf2-V1-ndk \
-    vendor.qti.hardware.power.powermodule-V1-ndk \
     vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qseecom-V1-ndk \
     vendor.qti.hardware.qseecom@1.0 \
@@ -4747,7 +4676,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qesdhal@1.2 \
     vendor.qti.qesdhal@1.3 \
     vendor.qti.qesdhalaidl-V2-ndk \
-    vendor.qti.qesdsys-V3-ndk \
     vendor.qti.qesdsys-V4-ndk \
     vendor.qti.qspmhal-V1-ndk \
     vendor.qti.qspmhal-impl \
@@ -4917,8 +4845,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.iwlandata.xml \
     vendor.qti.hardware.dsp-service.xml \
     vendor.qti.hardware.embmssl.xml \
-    vendor.qti.hardware.perf2.xml \
-    vendor.qti.hardware.power.powermodule.xml \
     vendor.qti.hardware.qseecom@1.0-service.xml \
     vendor.qti.hardware.qteeconnector@1.0-service.xml \
     vendor.qti.hardware.radio.am.xml \
@@ -4978,7 +4904,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.alarm-service \
     vendor.qti.hardware.capabilityconfigstore-service \
     vendor.qti.hardware.display.color-service \
-    vendor.qti.hardware.perf2-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.secureprocessor \
@@ -5043,7 +4968,6 @@ PRODUCT_PACKAGES += \
     pm-service \
     port-bridge \
     power_off_alarm \
-    poweropt-service \
     ppd \
     qcc-vendor \
     qdcmss \
@@ -5056,7 +4980,6 @@ PRODUCT_PACKAGES += \
     qrtr-lookup \
     qrtr-ns \
     qsap_location \
-    qsap_qapeservice \
     qseecomd \
     qti \
     qtigetprop \
