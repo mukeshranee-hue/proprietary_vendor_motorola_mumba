@@ -3710,7 +3710,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/motorola/mumba/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
-    vendor/motorola/mumba/proprietary/vendor/etc/vidhance.lic:$(TARGET_COPY_OUT_VENDOR)/etc/vidhance.lic \
+    vendor/motorola/mumba/proprietary/vendor/etc/camera/vidhance.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance.lic \
     vendor/motorola/mumba/proprietary/vendor/etc/wfd.hdcp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wfd.hdcp.bin \
     vendor/motorola/mumba/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/wifi/adrastea/WCNSS_mot_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/adrastea/WCNSS_mot_cfg.ini \
