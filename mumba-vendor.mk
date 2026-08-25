@@ -4211,6 +4211,7 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
+    liblmthermallistner \
     libloadalgo_stub \
     libloc_api_v02 \
     libloc_api_wds \
