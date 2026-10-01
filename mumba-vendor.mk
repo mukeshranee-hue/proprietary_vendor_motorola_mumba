@@ -4639,9 +4639,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.sensorscalibrate-V1-ndk \
     vendor.qti.hardware.sigma_miracast_aidl-V1-ndk \
     vendor.qti.hardware.soter-V1-ndk \
-    vendor.qti.hardware.vibratorCL.impl \
-    vendor.qti.hardware.vibratorOL.impl \
-    vendor.qti.hardware.vibratorSel.impl \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
