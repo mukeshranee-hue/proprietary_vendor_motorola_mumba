@@ -3449,7 +3449,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/vendor/etc/init/fingerprint-fpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint-fpc.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/hw/init.mmi.charge_only.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mmi.charge_only.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/hw/init.mmi.services.override.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mmi.services.override.rc \
-    vendor/motorola/mumba/proprietary/vendor/etc/init/hw/init.mmi.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mmi.usb.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/hw/init.mmi.wlan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mmi.wlan.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/hw/init.qcom.factory.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.factory.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/init/hw/init.qti.kernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.rc \
