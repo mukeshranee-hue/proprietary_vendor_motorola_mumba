@@ -1,5 +1,5 @@
 
-s732001Ш№€¬"ж,
+s732001дтн°"ж,
 (allow_emergency_numbers_in_call_log_bool( 
 carrier_volte_available_bool(
 carrier_vt_available_bool("

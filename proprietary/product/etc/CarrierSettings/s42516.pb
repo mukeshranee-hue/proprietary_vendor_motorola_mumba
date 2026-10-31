@@ -1,5 +1,5 @@
 
-s42516ÿπà¨Ö
+s42516‰ÚÌ∞Ö
 Rami Levi 3Ginternet.rlb
 Rami Levi Multimediamms.pelephone.net.ilZhttp://mmsu.pelephone.net.ilb10.170.252.104j9093"«
 carrier_name_override_bool( 

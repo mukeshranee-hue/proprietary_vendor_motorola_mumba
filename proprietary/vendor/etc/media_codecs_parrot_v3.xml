@@ -245,6 +245,19 @@
             <Limit name="performance-point-1920x1080" value="60" />
             <Limit name="performance-point-2560x1440" value="30" />
         </MediaCodec>
+        <MediaCodec name="c2.android.hevc.decoder" type="video/hevc" update="true">
+            <Alias name="OMX.google.hevc.decoder" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="8x8" />
+            <Limit name="size" min="2x2" max="2048x2048" />
+            <!-- profiles and levels:  ProfileMain : MainTierLevel51 -->
+            <Limit name="block-count" range="1-65536" />
+            <Limit name="blocks-per-second" range="1-491520" />
+            <Limit name="bitrate" range="1-10000000" />
+            <Feature name="adaptive-playback" />
+            <Feature name="dynamic-color-aspects" />
+            <Attribute name="software-codec" />
+        </MediaCodec>
     </Decoders>
     <Encoders>
         <!-- C2 encoders -->

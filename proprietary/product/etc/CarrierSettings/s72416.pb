@@ -1,7 +1,8 @@
 
-s72416ÿπà¨ö1
+s72416‰ÚÌ∞ö1
 OI:INTERNET:3gprs.oi.com.brBoiJoiPpxe
-OI:MMS:3mmsgprs.oi.com.brBoimmsJoioioiPZhttp://200.222.42.204:8002b192.168.10.50j3128px"ê&
+OI:MMS:3mmsgprs.oi.com.brBoimmsJoioioiPZhttp://200.222.42.204:8002b192.168.10.50j3128px"Æõ
+.call_redirection_service_component_name_stringicom.motorola.callredirectionservice/com.motorola.callredirectionservice.common.MoliCallRedirectionService&
 "enhanced_4g_lte_on_by_default_bool(
 maxImageHeightò
 maxImageWidth†

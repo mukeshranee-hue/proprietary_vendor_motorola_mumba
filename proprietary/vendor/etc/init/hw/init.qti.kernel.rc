@@ -185,9 +185,6 @@ on property:sys.boot_completed=1
     start kernel-post-boot
     start memory-post-boot
 
-    #"rt,3" will cause random access performance drop for bfq
-    write /sys/fs/f2fs/${dev.mnt.dev.data}/ckpt_thread_ioprio "be,3"
-
 on property:vendor.pasr.enabled=false
     stop pasr-hal
 

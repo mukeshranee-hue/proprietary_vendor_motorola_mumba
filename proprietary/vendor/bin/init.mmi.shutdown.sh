@@ -66,8 +66,10 @@ set_reboot_bootseq_history()
 	rebootcmd_history=`getprop $REBOOTCMD_HISTORY_PROP`
 	debug "reboot command history is $rebootcmd_history"
 	get_history_value valid_cmd_history_value - $rebootcmd_history
+	rebootcmd_history_value="$boot_seq.$reboot_cmds${valid_cmd_history_value}"
+	rebootcmd_history_value=${rebootcmd_history_value:0:91}
 
-	setprop $REBOOTCMD_HISTORY_PROP "$boot_seq.$reboot_cmds${valid_cmd_history_value}"
+	setprop $REBOOTCMD_HISTORY_PROP "$rebootcmd_history_value"
 	new_bootseq_history=`getprop $REBOOTCMD_HISTORY_PROP`
 	notice "set $REBOOTCMD_HISTORY_PROP $new_bootseq_history"
 }

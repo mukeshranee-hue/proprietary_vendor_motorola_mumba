@@ -1,5 +1,6 @@
 
-s52025Ø¹ˆ¬"­
+s52025äòí°"Ú+
+#carrier_nr_availabilities_int_array:
 maxImageHeight˜
 maxImageWidth #
 moto_data_stall_check_count_int22

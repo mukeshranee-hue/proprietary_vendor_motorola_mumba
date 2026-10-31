@@ -1,5 +1,5 @@
 
-s732123spn_3d_virgin_20_mobileÿπà¨'%
+s732123spn_3d_virgin_20_mobile‰ÚÌ∞'%
 Virgin Mobileweb.vmc.net.coP"¨,
 (allow_emergency_numbers_in_call_log_bool(
 hide_ims_apn_bool(

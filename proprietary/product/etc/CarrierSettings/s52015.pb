@@ -1,8 +1,9 @@
 
-s52015Ø¹ˆ¬`
+s52015äòí°`
 TOT 3GinternetB
 
-TOT 3G MMSmmsZhttp://mms.tot3g.net:8002b192.168.0.72j8080"­
+TOT 3G MMSmmsZhttp://mms.tot3g.net:8002b192.168.0.72j8080"Ú+
+#carrier_nr_availabilities_int_array:
 maxImageHeight˜
 maxImageWidth #
 moto_data_stall_check_count_int22

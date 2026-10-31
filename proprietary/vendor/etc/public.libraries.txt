@@ -1,3 +1,8 @@
+libqmi_cci.so
+libqmi_common_so.so
+libqmiservices.so
+libqmimotext.so
+libiqi_bridge.so
 libmpbase.so
 libanc_hdr.so
 libanc_hdr_adapter_rear_main.so
@@ -17,8 +22,3 @@ libcdsprpc.so
 libsdsprpc.so
 libfastcvopt.so
 libOpenCL.so
-libqmi_cci.so
-libqmi_common_so.so
-libqmiservices.so
-libqmimotext.so
-libiqi_bridge.so
