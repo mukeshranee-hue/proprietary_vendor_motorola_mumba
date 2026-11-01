@@ -4346,7 +4346,6 @@ PRODUCT_PACKAGES += \
     libnicm_recovery \
     libnicm_utils \
     libnicm_vh \
-    liboemcrypto \
     libopencv \
     libopencv3a \
     libopestriping \
