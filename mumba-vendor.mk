@@ -3348,11 +3348,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/product/etc/CarrierSettings/s99999.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s99999.pb
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/mumba/proprietary/product/etc/default-permissions/default-permissions-faceunlock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-faceunlock.xml \
     vendor/motorola/mumba/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/motorola/mumba/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/motorola/mumba/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
+    vendor/motorola/mumba/proprietary/product/etc/permissions/com.motorola.faceunlock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.faceunlock.xml \
+    vendor/motorola/mumba/proprietary/product/etc/permissions/privapp-permissions-com.motorola.faceunlock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.faceunlock.xml \
     vendor/motorola/mumba/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
     vendor/motorola/mumba/proprietary/product/etc/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
+    vendor/motorola/mumba/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.faceunlock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.faceunlock.xml \
     vendor/motorola/mumba/proprietary/product/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml \
     vendor/motorola/mumba/proprietary/recovery/root/vendor/firmware/ILITEK_FW_TXD:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ILITEK_FW_TXD \
     vendor/motorola/mumba/proprietary/recovery/root/vendor/firmware/boe_chipone_firmware.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/boe_chipone_firmware.bin \
@@ -4832,6 +4836,7 @@ PRODUCT_PACKAGES += \
     EuiccGoogle \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
+    MotoFaceUnlock \
     ImsRcsService \
     QCC \
     QtiTelephony \

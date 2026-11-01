@@ -27724,6 +27724,18 @@ android_app_import {
 }
 
 android_app_import {
+    name: "MotoFaceUnlock",
+    owner: "motorola",
+    apk: "proprietary/product/priv-app/MotoFaceUnlock/MotoFaceUnlock.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
     name: "ImsRcsService",
     owner: "motorola",
     apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
