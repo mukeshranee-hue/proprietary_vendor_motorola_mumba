@@ -3684,7 +3684,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/vendor/etc/qspa/nav_disabled.rc:$(TARGET_COPY_OUT_VENDOR)/etc/qspa/nav_disabled.rc \
     vendor/motorola/mumba/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
-    vendor/motorola/mumba/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/motorola/mumba/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/motorola/mumba/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm64.policy \
     vendor/motorola/mumba/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm64.policy \
@@ -5035,7 +5034,6 @@ PRODUCT_PACKAGES += \
     init.qti.media \
     init.qti.qcv \
     init.qti.write \
-    irsc_util \
     ks \
     loadalgo \
     loc_launcher \
