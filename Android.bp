@@ -30468,210 +30468,10 @@ cc_prebuilt_binary {
 }
 
 sh_binary {
-    name: "init.class_main",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.class_main.sh",
-    filename: "init.class_main.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.crda",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.crda.sh",
-    filename: "init.crda.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.gbmods",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.gbmods.sh",
-    filename: "init.gbmods.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-parrot",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-parrot.sh",
-    filename: "init.kernel.post_boot-parrot.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-ravelin",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-ravelin.sh",
-    filename: "init.kernel.post_boot-ravelin.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.kernel.post_boot.sh",
-    filename: "init.kernel.post_boot.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.mdm",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.mdm.sh",
-    filename: "init.mdm.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.mmi.block_perm",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.mmi.block_perm.sh",
-    filename: "init.mmi.block_perm.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.mmi.boot",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.mmi.boot.sh",
-    filename: "init.mmi.boot.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.mmi.display",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.mmi.display.sh",
-    filename: "init.mmi.display.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.mmi.mdlog-getlogs",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.mmi.mdlog-getlogs.sh",
-    filename: "init.mmi.mdlog-getlogs.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.mmi.modem-rfs",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.mmi.modem-rfs.sh",
-    filename: "init.mmi.modem-rfs.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.mmi.shutdown",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.mmi.shutdown.sh",
-    filename: "init.mmi.shutdown.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.mmi.touch",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.mmi.touch.sh",
-    filename: "init.mmi.touch.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.mmi.usb",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.mmi.usb.sh",
-    filename: "init.mmi.usb.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.mmi.wlan-getlogs",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.mmi.wlan-getlogs.sh",
-    filename: "init.mmi.wlan-getlogs.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.oem.fingerprint2",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.oem.fingerprint2.sh",
-    filename: "init.oem.fingerprint2.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.oem.hw",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.oem.hw.sh",
-    filename: "init.oem.hw.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qcom.class_core",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qcom.class_core.sh",
-    filename: "init.qcom.class_core.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qcom.coex",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qcom.coex.sh",
-    filename: "init.qcom.coex.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qcom.early_boot",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qcom.early_boot.sh",
-    filename: "init.qcom.early_boot.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qcom.efs.sync",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qcom.efs.sync.sh",
-    filename: "init.qcom.efs.sync.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qcom.post_boot",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qcom.post_boot.sh",
-    filename: "init.qcom.post_boot.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qcom.sdio",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qcom.sdio.sh",
-    filename: "init.qcom.sdio.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.qcom.sensors",
     owner: "motorola",
     src: "proprietary/vendor/bin/init.qcom.sensors.sh",
     filename: "init.qcom.sensors.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qcom",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qcom.sh",
-    filename: "init.qcom.sh",
     soc_specific: true,
 }
 
@@ -30684,82 +30484,10 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qti.kernel.debug-parrot",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qti.kernel.debug-parrot.sh",
-    filename: "init.qti.kernel.debug-parrot.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.debug-ravelin",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qti.kernel.debug-ravelin.sh",
-    filename: "init.qti.kernel.debug-ravelin.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.debug",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qti.kernel.debug.sh",
-    filename: "init.qti.kernel.debug.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.early_debug-parrot",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qti.kernel.early_debug-parrot.sh",
-    filename: "init.qti.kernel.early_debug-parrot.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel.early_debug",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qti.kernel.early_debug.sh",
-    filename: "init.qti.kernel.early_debug.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.kernel",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qti.kernel.sh",
-    filename: "init.qti.kernel.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.keymaster",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qti.keymaster.sh",
-    filename: "init.qti.keymaster.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.qti.media",
     owner: "motorola",
     src: "proprietary/vendor/bin/init.qti.media.sh",
     filename: "init.qti.media.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.qcv",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qti.qcv.sh",
-    filename: "init.qti.qcv.sh",
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "init.qti.write",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/init.qti.write.sh",
-    filename: "init.qti.write.sh",
     soc_specific: true,
 }
 
@@ -32096,14 +31824,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "system_dlkm_modprobe",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/system_dlkm_modprobe.sh",
-    filename: "system_dlkm_modprobe.sh",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "tftp_server",
     owner: "motorola",
@@ -32348,14 +32068,6 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
-    soc_specific: true,
-}
-
-sh_binary {
-    name: "vendor_modprobe",
-    owner: "motorola",
-    src: "proprietary/vendor/bin/vendor_modprobe.sh",
-    filename: "vendor_modprobe.sh",
     soc_specific: true,
 }
 
