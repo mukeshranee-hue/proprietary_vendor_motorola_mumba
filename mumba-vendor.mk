@@ -3348,19 +3348,32 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/product/etc/CarrierSettings/s99999.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/s99999.pb
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/mumba/proprietary/product/etc/default-permissions/default-permissions-faceunlock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-faceunlock.xml \
+    vendor/motorola/mumba/proprietary/product/etc/MotoDesktopAppConfig/com.motorola.camera5.desktop-config.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/MotoDesktopAppConfig/com.motorola.camera5.desktop-config.xml \
+    vendor/motorola/mumba/proprietary/product/etc/init/init.motcamera5.lens.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.motcamera5.lens.rc \
     vendor/motorola/mumba/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/motorola/mumba/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/motorola/mumba/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
-    vendor/motorola/mumba/proprietary/product/etc/permissions/com.motorola.faceunlock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.faceunlock.xml \
-    vendor/motorola/mumba/proprietary/product/etc/permissions/privapp-permissions-com.motorola.faceunlock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.faceunlock.xml \
+    vendor/motorola/mumba/proprietary/product/etc/permissions/com.motorola.camera5.adobe_scan.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.adobe_scan.xml \
+    vendor/motorola/mumba/proprietary/product/etc/permissions/com.motorola.camera5.lens.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.lens.xml \
+    vendor/motorola/mumba/proprietary/product/etc/permissions/com.motorola.camera5.mumba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.mumba.xml \
+    vendor/motorola/mumba/proprietary/product/etc/permissions/com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera5.xml \
+    vendor/motorola/mumba/proprietary/product/etc/permissions/com.motorola.moto-uirefresh.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.moto-uirefresh.xml \
+    vendor/motorola/mumba/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera5.xml \
+    vendor/motorola/mumba/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera5.xml \
     vendor/motorola/mumba/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
     vendor/motorola/mumba/proprietary/product/etc/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
-    vendor/motorola/mumba/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.faceunlock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.faceunlock.xml \
+    vendor/motorola/mumba/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera5.xml \
     vendor/motorola/mumba/proprietary/product/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml \
+    vendor/motorola/mumba/proprietary/product/etc/sysconfig/initial-package-stopped-states-com.motorola.camera5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/initial-package-stopped-states-com.motorola.camera5.xml \
+    vendor/motorola/mumba/proprietary/product/media/audio/ui/camera_click.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/camera_click.ogg \
+    vendor/motorola/mumba/proprietary/product/media/audio/ui/camera_focus.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/camera_focus.ogg \
     vendor/motorola/mumba/proprietary/recovery/root/vendor/firmware/ILITEK_FW_TXD:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ILITEK_FW_TXD \
     vendor/motorola/mumba/proprietary/recovery/root/vendor/firmware/boe_chipone_firmware.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/boe_chipone_firmware.bin \
     vendor/motorola/mumba/proprietary/recovery/root/vendor/firmware/csot_chipone_firmware.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/csot_chipone_firmware.bin \
+    vendor/motorola/mumba/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/mumba/proprietary/system/etc/permissions/moto-checkin.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-checkin.xml \
+    vendor/motorola/mumba/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
+    vendor/motorola/mumba/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
     vendor/motorola/mumba/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/motorola/mumba/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/motorola/mumba/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
@@ -3381,6 +3394,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
     vendor/motorola/mumba/proprietary/system_ext/etc/permissions/vendor.qti.imsdatachannel.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.imsdatachannel.xml \
     vendor/motorola/mumba/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
+    vendor/motorola/mumba/proprietary/system_ext/etc/public.libraries-moto.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-moto.txt \
     vendor/motorola/mumba/proprietary/system_ext/etc/public.libraries-qti.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-qti.txt \
     vendor/motorola/mumba/proprietary/system_ext/etc/qspa/qspa_default.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/qspa/qspa_default.rc \
     vendor/motorola/mumba/proprietary/system_ext/etc/seccomp_policy/imsvtdaemon.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/imsvtdaemon.policy \
@@ -3655,6 +3669,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/mumba/proprietary/vendor/etc/motosxf_conf_profile:$(TARGET_COPY_OUT_VENDOR)/etc/motosxf_conf_profile \
     vendor/motorola/mumba/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/motorola/mumba/proprietary/vendor/etc/permissions/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml \
+    vendor/motorola/mumba/proprietary/vendor/etc/permissions/com.motorola.camera.extensions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera.extensions.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
     vendor/motorola/mumba/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/motorola/mumba/proprietary/vendor/etc/qcom_widevine_licenses.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/qcom_widevine_licenses.pfm \
@@ -4771,6 +4786,7 @@ PRODUCT_PACKAGES += \
     libdpmfdmgr \
     libdpmframework \
     libdpmtcm \
+    libenginepostproc.moto \
     libimsmedia_jni \
     libmmosal \
     libmmparser_lite \
@@ -4819,6 +4835,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.qccvndhal_aidl-V2-ndk \
     vendor.qti.qesdhalaidl-V3-ndk \
     com.google.android.widevine-12498615 \
+    MotoSignatureApp \
     CACertService \
     CneApp \
     IWlanService \
@@ -4828,16 +4845,22 @@ PRODUCT_PACKAGES += \
     EuiccGoogle \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
-    MotoFaceUnlock \
+    MotCamera5 \
     ImsRcsService \
     QCC \
+    MotorolaSettingsProvider \
     QtiTelephony \
     WfdService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
     WfdCommon \
+    com.motorola.motosignature \
+    moto-checkin \
+    moto-core_services \
+    moto-settings \
     com.fingerprints.extension \
+    com.motorola.camera.extensions \
     uimgbalibrary \
     uimgbamanagerlibrary \
     uimservicelibrary \
@@ -5055,6 +5078,7 @@ PRODUCT_PACKAGES += \
     dpmd \
     imsvtdaemon \
     loc_sys_service \
+    motsettings \
     qccsyshal_aidl-service \
     wfdservice64
 
