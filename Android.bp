@@ -6,11 +6,7 @@ soong_namespace {
     imports: [
         "device/motorola/mumba",
         "hardware/motorola",
-        "hardware/qcom-caf/sm8450-6.6",
-        "hardware/qcom-caf/wlan",
-        "vendor/qcom/opensource/commonsys/display",
-        "vendor/qcom/opensource/commonsys-intf/display",
-        "vendor/qcom/opensource/dataservices",
+        "hardware/qcom/wlan/qcwcn",
     ],
 }
 
@@ -5116,8 +5112,8 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "libbinder",
                 "android.hardware.bluetooth.audio-V3-ndk",
-                "vendor.qti.hardware.fm-V1-ndk_vendor",
-                "vendor.qti.hardware.fm@1.0_vendor",
+                "vendor.qti.hardware.fm-V1-ndk",
+                "vendor.qti.hardware.fm@1.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -5831,7 +5827,7 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libbinder_ndk",
                 "android.hardware.bluetooth@1.0-impl-qti",
-                "vendor.qti.hardware.fm-V1-ndk_vendor",
+                "vendor.qti.hardware.fm-V1-ndk",
                 "libqmi_cci",
                 "libqmi",
                 "libqmiservices",
@@ -8989,7 +8985,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "com.dsi.ant@1.0",
                 "android.hardware.bluetooth.audio-V3-ndk",
-                "vendor.qti.hardware.fm-V1-ndk_vendor",
+                "vendor.qti.hardware.fm-V1-ndk",
                 "liblog",
                 "libcutils",
                 "libbinder",
@@ -12549,7 +12545,7 @@ cc_prebuilt_library_shared {
                 "libbinder",
                 "libadropbox",
                 "liblog",
-                "libqsap_sdk",
+                "libqsap_sdk.moto",
                 "libhidlbase",
                 "libxml2",
                 "libc++",
@@ -22793,61 +22789,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.fm-V1-ndk_vendor",
-    stem: "vendor.qti.hardware.fm-V1-ndk",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.hardware.fm-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.fm@1.0_vendor",
-    stem: "vendor.qti.hardware.fm@1.0",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.iop@1.0",
     owner: "motorola",
     strip: {
@@ -29286,7 +29227,7 @@ cc_prebuilt_binary {
                 "libbinder_ndk",
                 "android.hardware.bluetooth-V1-ndk",
                 "android.hardware.bluetooth@1.0-impl-qti",
-                "vendor.qti.hardware.fm-V1-ndk_vendor",
+                "vendor.qti.hardware.fm-V1-ndk",
                 "vendor.qti.hardware.fm-impl",
                 "android.hardware.bluetooth@aidl-impl-qti",
                 "vendor.qti.hardware.bttpi-V3-ndk",
@@ -29294,7 +29235,7 @@ cc_prebuilt_binary {
                 "libqmi",
                 "libqmiservices",
                 "libsoc_helper",
-                "vendor.qti.hardware.fm@1.0_vendor",
+                "vendor.qti.hardware.fm@1.0",
                 "vendor.qti.hardware.bttpi-impl",
                 "libqti_vndfwk_detect_vendor",
                 "vendor.qti.hardware.bluetooth_sar@aidl-impl",
